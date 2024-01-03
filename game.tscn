@@ -9,8 +9,14 @@
 offset_right = 1000.0
 offset_bottom = 500.0
 
-[node name="Player" parent="." instance=ExtResource("1_ojpeg")]
-position = Vector2(257, 215)
-
 [node name="StaticBody2D" parent="." instance=ExtResource("2_tqjy5")]
 position = Vector2(530, 190)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("2_tqjy5")]
+position = Vector2(810, 392)
+
+[node name="StaticBody2D3" parent="." instance=ExtResource("2_tqjy5")]
+position = Vector2(124, 407)
+
+[node name="Player" parent="." instance=ExtResource("1_ojpeg")]
+position = Vector2(257, 215)
