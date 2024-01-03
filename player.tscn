@@ -15,3 +15,5 @@ unique_name_in_owner = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_1jqd7")
+
+[node name="Camera2D" type="Camera2D" parent="."]
