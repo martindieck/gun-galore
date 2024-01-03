@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://c2h7fdg8j8xhl"]
+[gd_scene load_steps=3 format=3 uid="uid://c2h7fdg8j8xhl"]
 
 [ext_resource type="PackedScene" uid="uid://c1x1drlovbauy" path="res://player.tscn" id="1_ojpeg"]
+[ext_resource type="PackedScene" uid="uid://dh2i21b3e3fe2" path="res://tree.tscn" id="2_tqjy5"]
 
 [node name="Game" type="Node2D"]
 
@@ -10,3 +11,6 @@ offset_bottom = 500.0
 
 [node name="Player" parent="." instance=ExtResource("1_ojpeg")]
 position = Vector2(257, 215)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("2_tqjy5")]
+position = Vector2(530, 190)
