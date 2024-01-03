@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://c1x1drlovbauy"]
+[gd_scene load_steps=5 format=3 uid="uid://c1x1drlovbauy"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_4q4jk"]
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_cus25"]
+[ext_resource type="PackedScene" uid="uid://bctevgxryj3ga" path="res://gun.tscn" id="2_61am2"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1jqd7"]
 radius = 29.15
@@ -10,6 +11,9 @@ radius = 29.15
 scale = Vector2(0.6, 0.6)
 platform_floor_layers = 4294967040
 script = ExtResource("1_4q4jk")
+
+[node name="Gun" parent="." instance=ExtResource("2_61am2")]
+position = Vector2(0, -50)
 
 [node name="HappyBoo" parent="." instance=ExtResource("1_cus25")]
 unique_name_in_owner = true
