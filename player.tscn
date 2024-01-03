@@ -10,6 +10,7 @@ radius = 29.15
 script = ExtResource("1_4q4jk")
 
 [node name="HappyBoo" parent="." instance=ExtResource("1_cus25")]
+unique_name_in_owner = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_1jqd7")
