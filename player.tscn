@@ -8,6 +8,7 @@ radius = 29.15
 
 [node name="Player" type="CharacterBody2D"]
 scale = Vector2(0.6, 0.6)
+platform_floor_layers = 4294967040
 script = ExtResource("1_4q4jk")
 
 [node name="HappyBoo" parent="." instance=ExtResource("1_cus25")]
