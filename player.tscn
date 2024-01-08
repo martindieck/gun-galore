@@ -51,8 +51,6 @@ debug_color = Color(0.886275, 0.313726, 0.278431, 0.419608)
 
 [node name="HealthBar" type="ProgressBar" parent="."]
 unique_name_in_owner = true
-light_mask = 2
-visibility_layer = 2
 offset_left = -101.667
 offset_top = -145.0
 offset_right = 101.333
