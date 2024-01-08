@@ -5,3 +5,6 @@ func spawn_mob():
 	%EnemyPath.progress_ratio = randf()
 	new_mob.global_position = %EnemyPath.global_position
 	add_child(new_mob)
+
+func _on_timer_timeout():
+	spawn_mob()
