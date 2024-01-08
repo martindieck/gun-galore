@@ -1,5 +1,8 @@
 extends Node2D
 
+func _physics_process(delta):
+	%KillCount.text = str(Global.killcount)
+
 func spawn_mob():
 	var new_mob = preload("res://enemy.tscn").instantiate()
 	%SpawnPath.progress_ratio = randf()
@@ -11,7 +14,6 @@ func spawn_static():
 	%SpawnPath.progress_ratio = randf()
 	new_static.global_position = %SpawnPath.global_position
 	add_child(new_static)
-	
 
 func _on_timer_timeout():
 	spawn_mob()

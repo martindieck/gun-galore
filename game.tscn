@@ -32,6 +32,16 @@ curve = SubResource("Curve2D_6x45l")
 unique_name_in_owner = true
 position = Vector2(-79, -83)
 
+[node name="KillCount" type="Label" parent="Player"]
+unique_name_in_owner = true
+offset_left = -771.667
+offset_top = -426.667
+offset_right = -731.667
+offset_bottom = -402.667
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "Test"
+
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.75
 autostart = true
