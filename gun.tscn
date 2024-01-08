@@ -23,4 +23,5 @@ scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_fnb0u")
 
 [node name="ShootingPoint" type="Marker2D" parent="WeaponPivot/Pistol"]
+unique_name_in_owner = true
 position = Vector2(25, -10)
