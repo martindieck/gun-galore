@@ -3,6 +3,7 @@ extends CharacterBody2D
 var health = 3
 
 @onready var player = get_node("/root/Game/Player")
+const SMOKE_EXPLOSION = preload("res://smoke_explosion/smoke_explosion.tscn")
 
 func _ready():
 	%Slime.play_walk()
@@ -18,3 +19,6 @@ func take_damage():
 		
 	if health == 0:
 		queue_free()
+		var smoke = SMOKE_EXPLOSION.instantiate()
+		get_parent().add_child(smoke)
+		smoke.global_position = global_position
