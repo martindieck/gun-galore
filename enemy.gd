@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var health = 3
+var health = 2
 
 @onready var player = get_node("/root/Game/Player")
 const SMOKE_EXPLOSION = preload("res://smoke_explosion/smoke_explosion.tscn")

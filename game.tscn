@@ -5,7 +5,7 @@
 
 [sub_resource type="Curve2D" id="Curve2D_6x45l"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, -79, -83, 0, 0, 0, 0, 1102, -83, 0, 0, 0, 0, 1102, 549, 0, 0, 0, 0, -77, 550, 0, 0, 0, 0, -79, -83)
+"points": PackedVector2Array(0, 0, 0, 0, -79, -83, 0, 0, 0, 0, 1102, -83, 0, 0, 0, 0, 1103, 626, 0, 0, 0, 0, -76, 628, 0, 0, 0, 0, -79, -83)
 }
 point_count = 5
 
@@ -28,7 +28,7 @@ position = Vector2(-833.333, -418.333)
 scale = Vector2(1.66667, 1.66667)
 curve = SubResource("Curve2D_6x45l")
 
-[node name="EnemyPath" type="PathFollow2D" parent="Player/Path2D"]
+[node name="SpawnPath" type="PathFollow2D" parent="Player/Path2D"]
 unique_name_in_owner = true
 position = Vector2(-79, -83)
 
